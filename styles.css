@@ -1,5 +1,6 @@
 p {
 	font-family: Arial, sans-serif;
+	color: grey;
 }
 
 #header-text{
@@ -8,10 +9,37 @@ p {
 .header {
 	font-family: Palatino, Georgia, serif;
 }
-.starters {
+.starters-font {
 	font-family: Palatino, Georgia, serif;
 }
 
+.starters {
+	margin: 10px;
+}
+
+.titles {
+	color:grey;
+}
+
+.image {
+		display:block;
+		float: left;
+	}
+
+.details {
+	display: inline;
+}
+
+.item {
+	display: flex;
+	margin: 10px;
+}
+
+.menu {
+	margin: 2em;
+}
+
+	
 @media only screen and (max-width: 600px) {
 	.header {
 		text-align: center;
@@ -21,18 +49,17 @@ p {
 	}
 
 	.image {
-		display:inline;
+		display:block;
+		float: left;
 	}
 
 	.details {
 		display: inline;
 	}
 
-	.descriptions {
-		display:inline;
-	}
-	.titles {
-		display:inline-block;
+	.item {
+		display: flex;
+		margin: 10px;
 	}
 
 	.menu {
