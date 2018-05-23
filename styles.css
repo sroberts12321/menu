@@ -1,0 +1,42 @@
+p {
+	font-family: Arial, sans-serif;
+}
+
+#header-text{
+	color: grey;
+}
+.header {
+	font-family: Palatino, Georgia, serif;
+}
+.starters {
+	font-family: Palatino, Georgia, serif;
+}
+
+@media only screen and (max-width: 600px) {
+	.header {
+		text-align: center;
+	}
+	#header-text{
+		text-align: center;
+	}
+
+	.image {
+		display:inline;
+	}
+
+	.details {
+		display: inline;
+	}
+
+	.descriptions {
+		display:inline;
+	}
+	.titles {
+		display:inline-block;
+	}
+
+	.menu {
+		margin: 2em;
+	}
+
+}
